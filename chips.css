@@ -1,0 +1,51 @@
+body {
+    font-size: 62.5%;
+}
+
+.stacked-chips {
+    width: 0.8rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.basic-chips {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.chip {
+    border: 1px solid transparent;
+    background-color: rgba(128, 128, 128, 0.158);
+    border-radius: 2rem;
+    font-size: 0.8rem;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#icon-size {
+    font-size: 1rem;
+}
+
+.ml-5 {
+    margin-left: 5px;
+}
+.mr-5 {
+    margin-right: 5px;
+}
+
+.bg-primary {
+    background-color: thistle;
+}
+
+.bg-secondary {
+    background-color: turquoise;
+}
+
+.bg-warn {
+    background-color: yellowgreen;
+}
