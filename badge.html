@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="badge.css"></link>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Document</title>
+    <script>
+        function showHideNotification() {
+            const x = document.getElementById("notification");
+            if (x.classList.contains("display-none")) {
+                x.classList.remove("display-none")
+            } else {
+                x.classList.add("display-none")
+            }
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <p>Text with a badge<span class="badge font-small position-right">4</span></p>
+    </div>
+    <div>
+        <p>Text with large badge<span class="badge font-large position-right">1</span></p>
+    </div>
+    <div>
+        <p>Button with a badge on the left
+                <span class="badge font-small position-left">1</span>
+                <button>Action</button>
+        </p>
+    </div>
+    <div>
+        <p>Button toggles badge visibility
+            <button onclick="showHideNotification()">Hide</button>
+            <span id="notification" class="badge font-small position-right">1</span>
+        </p>
+    </div>
+    <div>
+        <p>Icon with a badge
+            <i class="material-icons flex-items">home</i>
+            <span id="notification" class="badge font-small position-right">1</span>
+        </p>
+    </div>
+</body>
+</html>

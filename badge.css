@@ -1,0 +1,59 @@
+body {
+    font-size: 62.5%;
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+.badge {
+    background-color: #D4A373;
+    display: inline-block;
+    border-radius: 50%;
+    height: 1rem;
+    width: 1rem;
+    justify-content: center;
+    position: relative;
+    bottom: 14px;
+    text-align: center;
+    padding: 2px;
+    font-weight: bolder;
+    vertical-align: middle;
+}
+
+.font-small {
+    font-size: 1rem;
+    height: 1rem;
+    width: 1rem;
+    line-height: 1rem;
+    color: black;
+}
+
+.font-large {
+    line-height: 1.5rem;
+    font-size: 1.5rem;
+    height: 1.5rem;
+    width: 1.5rem;
+    color: black;
+}
+
+button {
+    background-color: lightskyblue;
+    border-radius: 3px;
+    border: none;
+    box-shadow: 0 3px 1px -2px #0003, 0 2px 2px #00000024, 0 1px 5px #0000001f;
+    line-height: 1.5rem;
+    cursor: pointer;
+}
+
+.position-left {
+    left: 10px;
+}
+
+.position-right {
+    right: 12px;
+}
+
+.display-none {
+    display: none;
+}
